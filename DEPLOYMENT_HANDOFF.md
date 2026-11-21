@@ -2,7 +2,7 @@
 
 ## Source and environment setup
 
-Clone the blueprint and the two source snapshots through the owner's authorized private GitHub access. Pin the listed source revisions and record all adapted files. Keep the legacy archive unchanged as a reference; implement in a new app workspace. Preserve the existing Cloudflare production deployment and encryption/signing keys. New repository pushes are backups/handoffs, not authorization to reactivate old Emergent, Render or Cloudflare projects.
+Clone the public blueprint and the two required public source snapshots without a GitHub token. The optional historical private archives are not required for the first implementation slice. Pin the listed source revisions and record all adapted files. Keep the legacy archive unchanged as a reference; implement in a new app workspace. Preserve the existing Cloudflare production deployment and encryption/signing keys. New repository pushes are backups/handoffs, not authorization to reactivate old Emergent, Render or Cloudflare projects.
 
 Create separate local/test, pilot/staging and production configuration. Use synthetic fixtures and provider test modes in development. A staged backend must enforce its own environment on every database read/write, scheduled batch and provider callback. Never copy the production D1 dataset, private legacy database, real photos or customer messages into test fixtures or GitHub.
 

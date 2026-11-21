@@ -4,6 +4,7 @@ This is the entry point for the coding agent building Imladri's iOS-first dating
 
 | Document | Purpose |
 | --- | --- |
+| [Public access](PUBLIC_ACCESS.md) | Token-free reading/cloning and optional archive boundaries |
 | [Agent start](AGENT_START_HERE.md) | Reading order, first deliverable, source priority, and boundaries |
 | [Product blueprint](IOS_PRODUCT_BLUEPRINT.md) | Screens, flows, matching behavior, membership, and delivery phases |
 | [Reuse map](REUSE_MAP.md) | Exact files to inspect, reuse, adapt, or retire |
@@ -15,15 +16,15 @@ This is the entry point for the coding agent building Imladri's iOS-first dating
 | [Source capture](SOURCE_CAPTURE.md) | What was uploaded, what was intentionally excluded, and verification scope |
 | [Original references](references/README.md) | Historical strategy PDF and TikTok episode bank, with source-priority guidance |
 
-## Connected private source repositories
+## Connected source repositories
 
 - [Dating source snapshot](https://github.com/try-imladri/imladri-dating-source): the later Personal code plus the previously uncommitted November 19 dating work. Inspect its provenance and sanitization notes. Source pin: `5b9100518d3942c969bc87f8ad46a924e92d7312`.
 - [Current waitlist](https://github.com/try-imladri/imladri-waitlist): public Cloudflare landing, signup, contact, encrypted storage, branded email, and owner dashboard. Source pin: `fd8b5b8c28d3a155eb160ad80ffe6e749f768101`.
-- [Older marketplace archive](https://github.com/try-imladri/imladri-marketplace-archive): historical reference, not the foundation for the dating app. Its earlier product and deployment instructions are superseded.
-- [Older Personal repository](https://github.com/try-imladri/imladri-personal): historical baseline; it did not contain all the newer uncommitted dating work.
-- [Earlier AI-security repository](https://github.com/try-imladri/imladri): retired product reference. Do not restore its product copy, routes, or deployment as part of this build.
+- [Older marketplace archive](https://github.com/try-imladri/imladri-marketplace-archive): optional private historical reference, not a dependency of the iOS build. Its earlier product and deployment instructions are superseded; skip it if you do not have access.
+- [Older Personal repository](https://github.com/try-imladri/imladri-personal): optional private historical baseline; the public dating snapshot already preserves the newer code needed for reuse.
+- [Earlier AI-security repository](https://github.com/try-imladri/imladri): optional private retired-product reference, not a build dependency. Do not restore its product copy, routes, or deployment as part of this build.
 
-The clean source snapshots intentionally omit runtime secrets, customer data, environment state, recordings, and local reports. Provision runtime configuration separately; a missing secret is not a reason to disable verification. Repository access is private. Use the owner's authorized GitHub account, never embedded credentials in links.
+The clean source snapshots intentionally omit runtime secrets, customer data, environment state, recordings, and local reports. Provision runtime configuration separately; a missing secret is not a reason to disable verification. The blueprint, dating source and current waitlist are public and require no GitHub token for reading or cloning. Historical private archives are optional; see [PUBLIC_ACCESS.md](PUBLIC_ACCESS.md).
 
 ## Product in one sentence
 

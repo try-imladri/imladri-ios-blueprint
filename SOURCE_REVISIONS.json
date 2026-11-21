@@ -7,14 +7,16 @@
       "revision": "5b9100518d3942c969bc87f8ad46a924e92d7312",
       "role": "Latest Personal base plus captured uncommitted dating work",
       "sourceBase": "62396a46c9ff5cd50e94bcc13e1aff9d82feda6c",
-      "private": true
+      "private": false,
+      "access": "public read; no GitHub token required"
     },
     {
       "repository": "try-imladri/imladri-waitlist",
       "revision": "fd8b5b8c28d3a155eb160ad80ffe6e749f768101",
       "role": "Current Cloudflare waitlist and owner dashboard",
       "sourceBase": "11514d98fbe7a3e5008b1ab828547646b504da01",
-      "private": true
+      "private": false,
+      "access": "public read; no GitHub token required"
     },
     {
       "repository": "try-imladri/imladri-marketplace-archive",
@@ -27,6 +29,8 @@
   "notes": [
     "Fresh source snapshots intentionally omit old Git history, credentials, private data and local artifacts. Original source trees and history remain local.",
     "The source revisions are reference inputs, not a certification that the legacy app is ready for release.",
-    "GitHub Actions are disabled on all four handoff repositories; no production deployment was performed."
-  ]
+    "GitHub Actions are disabled on all four handoff repositories; no production deployment was performed.",
+    "The blueprint and two required source snapshots are public by owner authorization on November 21, 2026. Optional historical archives can remain private."
+  ],
+  "publicationDate": "2026-11-21"
 }

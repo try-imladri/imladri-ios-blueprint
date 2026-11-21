@@ -2,7 +2,9 @@
 
 ## Objective and reading order
 
-Build an iOS-first Imladri app with a path to Android and a backend/admin integration that records the actual dating flow. Reuse audited components from the private snapshots instead of reimplementing known domain behavior. The first release centers on introductions and mutual connection, not an infinite swipe deck.
+The required blueprint, dating source and waitlist repositories are public. Read or clone them without a GitHub token. Optional private historical archives are not required; see [PUBLIC_ACCESS.md](PUBLIC_ACCESS.md).
+
+Build an iOS-first Imladri app with a path to Android and a backend/admin integration that records the actual dating flow. Reuse audited components from the published source snapshots instead of reimplementing known domain behavior. The first release centers on introductions and mutual connection, not an infinite swipe deck.
 
 1. Read `DECISION_REGISTER.md` and `IOS_PRODUCT_BLUEPRINT.md`.
 2. Read `REUSE_MAP.md`, then the pinned dating router, schemas, service, and regression tests.

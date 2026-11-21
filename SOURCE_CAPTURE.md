@@ -1,6 +1,6 @@
 # Uploaded source capture
 
-These private GitHub snapshots preserve the current authored code and assets, including modified and previously untracked dating work. They are fresh snapshots without the old Git histories. Original local projects, histories, runtime configuration and production data remain in place.
+These reviewed GitHub snapshots preserve the current authored code and assets, including modified and previously untracked dating work. They are fresh snapshots without the old Git histories. Original local projects, histories, runtime configuration and production data remain in place.
 
 | Repository | Uploaded files | Captured source |
 | --- | ---: | --- |
@@ -8,7 +8,7 @@ These private GitHub snapshots preserve the current authored code and assets, in
 | `try-imladri/imladri-waitlist` | 222 | Current Cloudflare waitlist, contact/admin/data/email code, migrations, tests, selected branding, walking assets and fonts |
 | `try-imladri/imladri-marketplace-archive` | 318 | Historical marketplace authored source and public assets; not the active dating build |
 
-Exact immutable commits are in `SOURCE_REVISIONS.json`. The source capture was checked against GitHub: remote heads match the local snapshot commits and every hosted Git blob hash matches the committed local tree. All three source repositories are private. Automatic GitHub Actions are disabled on the source and blueprint repositories; uploading these archives did not deploy or reactivate an application.
+Exact immutable commits are in `SOURCE_REVISIONS.json`. The source capture was checked against GitHub: remote heads match the local snapshot commits and every hosted Git blob hash matches the committed local tree. The dating and waitlist source repositories, plus this blueprint, are public following the owner's November 21, 2026 authorization. The optional historical marketplace archive remains private. Automatic GitHub Actions are disabled on the source and blueprint repositories; uploading these archives did not deploy or reactivate an application.
 
 ## Exclusions and audit scope
 
