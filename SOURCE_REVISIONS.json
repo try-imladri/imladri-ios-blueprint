@@ -1,0 +1,32 @@
+{
+  "reviewedDate": "2026-11-20",
+  "owner": "try-imladri",
+  "repositories": [
+    {
+      "repository": "try-imladri/imladri-dating-source",
+      "revision": "5b9100518d3942c969bc87f8ad46a924e92d7312",
+      "role": "Latest Personal base plus captured uncommitted dating work",
+      "sourceBase": "62396a46c9ff5cd50e94bcc13e1aff9d82feda6c",
+      "private": true
+    },
+    {
+      "repository": "try-imladri/imladri-waitlist",
+      "revision": "fd8b5b8c28d3a155eb160ad80ffe6e749f768101",
+      "role": "Current Cloudflare waitlist and owner dashboard",
+      "sourceBase": "11514d98fbe7a3e5008b1ab828547646b504da01",
+      "private": true
+    },
+    {
+      "repository": "try-imladri/imladri-marketplace-archive",
+      "revision": "9084240d8c63f29b8ed6fc863be52f73eb2cf3fe",
+      "role": "Historical marketplace reference",
+      "sourceBase": "7d51b345b70e4ca9885faba7354a476ac8764d16",
+      "private": true
+    }
+  ],
+  "notes": [
+    "Fresh source snapshots intentionally omit old Git history, credentials, private data and local artifacts. Original source trees and history remain local.",
+    "The source revisions are reference inputs, not a certification that the legacy app is ready for release.",
+    "GitHub Actions are disabled on all four handoff repositories; no production deployment was performed."
+  ]
+}
